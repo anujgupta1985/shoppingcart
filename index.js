@@ -38,6 +38,8 @@ app.get("/", (req, res) => {
     res.send(getHello);
 });
 
-app.listen(3000, () => {
+let portnumber = process.env.PORT || 3000;
+
+app.listen( portnumber, () => {
     console.log("Listening port 3000");
 });
