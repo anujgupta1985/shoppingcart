@@ -20,7 +20,7 @@ app.use(session({secret : "12345!@#$%12345"}));
 
 /// Set admin directory globally
 global.adminPath = "admin/";
-global.adminUrl = "http://localhost:3000/admin/";
+global.adminUrl = "https://afternoon-caverns-72609.herokuapp.com/admin/";
 
 
 /// Set multiple language start
